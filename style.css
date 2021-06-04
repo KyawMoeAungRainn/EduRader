@@ -1,0 +1,273 @@
+@import url(https://fonts.gstatic.com);
+@import url(https://fonts.googleapis.com/css2?family=Lobster&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Pattaya&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;600;800&display=swap);
+
+*{
+    scroll-behavior: smooth;
+}
+
+body {
+    width: fit-content;
+    block-size: fit-content;
+    background-color: rgb(75, 187, 202);
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'Roboto Slab', serif;
+    margin: auto ;
+    box-sizing: border-box;
+}
+.two .three{
+    width: 100px;
+}
+
+header{
+    background-color: rgb(216, 61, 82);
+    height: 11vh;
+    width: 100%;
+    z-index: auto;
+    display: inline-block;
+    margin-bottom: 0px;
+
+}
+.Done {
+    text-align: left;
+    display: inline-block;
+    margin-left: 5em;
+    font-weight: 800;
+    word-spacing: 2px;
+    margin-top: 5px;
+}
+
+.ONE {
+    display: inline-block;
+    color: rgb(46, 36, 36);
+    padding: 10px 25px 10px 25px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 2em;
+    border-radius: 5px;
+    margin-bottom: -5px;
+
+}
+.fst{
+    margin-left: 35em;
+}
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    padding: 2px 2px 2px 0px;
+    margin-top: 5px;
+    border-radius: 5px;
+    position: absolute;
+    background-color: #000000ad;
+}
+.drop{
+    margin-right: 0px;
+}
+
+.Two {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(255, 255, 255, 0.849);
+    display: block;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+}
+.Two:hover {
+    color: #000000;
+    background-color: rgb(216, 61, 82);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .drop {
+    background-color: #07010198;
+    color: white;
+}
+.ONE:hover {
+    color: white;
+    background-color: #07010198;
+}
+.container {
+    height: 800px;
+    background: black;
+    overflow: hidden;
+    background: url("images/main-profile.jpg");width: 100%;
+    background-size: cover;
+    backdrop-filter: black (5px);
+}
+
+.fs-one {
+    background-color: rgba(0, 0, 0, 0.795);margin: 14em auto auto auto;  max-width: 40rem;
+    color: white; border-style: solid;
+    border-image: linear-gradient(
+    to bottom, 
+    red, 
+    rgba(0, 0, 0, 0)
+    ) 1 100%;
+    z-index: -2;
+}
+
+.one-part{
+    text-align: center;
+    display: block;
+    width: auto;
+    padding: 0px 52px 0px 52px;
+
+}
+
+.two:hover img {
+    box-shadow: 0px 10px 16px 16px #312f2f0e;
+    transition: 1.5s;
+}.three:hover img {
+    box-shadow: 0px 10px 16px 16px #312f2f1a;
+    transition: 1.5s;}.two{
+    height: 50vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: rgb(142, 190, 230);}.two-img{
+    margin-left: 20px;
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow:0px 4px 8px rgba(58, 57, 57, 0.651);}.two-part{
+    width: 600px;
+    margin-left: 40px;
+}
+.two{
+    height: 40vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: rgb(142, 190, 230);
+}
+.three{
+    height: 40vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: rgba(243, 235, 125, 0.89);}
+.three-img{
+    margin-left: 20px;
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow:0px 4px 8px 0px rgba(58, 57, 57, 0.74);
+}
+.three-part{
+    width: 600px;
+    margin-left: 40px;
+}
+.fa-lg{
+    text-align: center;
+    color: rgba(173, 11, 11, 0.795);}
+
+#myBtn {
+    display: none; 
+    position: fixed;
+    bottom: 20px; 
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgb(211, 0, 0);
+    color: rgba(255, 255, 255, 0.993);
+    cursor: pointer;
+    padding: 0px;
+    border-radius: 50px;
+    box-shadow: 0px 3px 5px 5px rgba(0, 0, 0, 0.349);
+    font-size: 18px;
+}
+
+#myBtn:hover{
+    background-color:  rgb(75, 187, 202);
+}
+.fa-chevron-circle-up:hover {
+    color: rgb(255, 0, 0);
+}
+    footer{
+    min-height: 50px;
+    background: url(images/footer.jpg) no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.copy-footer{
+    text-align: left;
+    color: rgb(219, 197, 124);
+}
+
+
+@media only screen and (max-width: 1200px){
+    .fst{
+        margin-left: 15em;
+}
+}
+
+@media only screen and (max-width: 600px){
+    body {
+        zoom: 0.35;
+    }
+    .ONE {
+        font-size: large;
+    }
+    .fst{
+        margin-left: 30em;
+    }
+    .three{
+    background-color: rgba(233, 109, 167, 0.89);
+    }
+}
+@media only screen and (max-width: 425px){
+body {
+    zoom: 0.34;
+}
+.ONE {
+    font-size: large;
+}
+.fst{
+    margin-left: 22em;
+}
+.fs-one {
+    background-color: rgba(0, 0, 0, 0.795);margin:10em auto auto auto;  max-width: 50rem;
+    color: white; border-style: solid;
+    border-image: linear-gradient(
+    to bottom, 
+    red, 
+    rgba(0, 0, 0, 0)
+    ) 1 100%;
+    z-index: -2;
+}
+.two, .three{
+    height: 80vh;
+}
+.three{
+    background-color: rgb(221, 221, 137);
+}
+.two-img, .three-img{
+    width: 400px;
+    height: 400px;
+}
+.two-part, .three-part{
+    font-size: 1.3em;
+
+}
+.fa-lg{
+    width: 10px;
+    size: 10em;
+    margin-right: 20px;
+    color: rgba(173, 11, 11, 0.795);
+    padding-bottom: 10px;
+}
+}
+
+

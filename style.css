@@ -143,14 +143,14 @@ header{
     margin-left: 40px;
 }
 .two{
-    height: 40vh;
+    height: 50vh;
     display: flex;
     justify-content: left;
     align-items: center;
     background-color: rgb(142, 190, 230);
 }
 .three{
-    height: 40vh;
+    height: 50vh;
     display: flex;
     justify-content: left;
     align-items: center;

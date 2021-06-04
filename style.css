@@ -235,7 +235,7 @@ body {
     font-size: large;
 }
 .fst{
-    margin-left: 22em;
+    margin-left: 17em;
 }
 .fs-one {
     background-color: rgba(0, 0, 0, 0.795);margin:10em auto auto auto;  max-width: 50rem;
@@ -248,7 +248,7 @@ body {
     z-index: -2;
 }
 .two, .three{
-    height: 80vh;
+    height: 90vh;
 }
 .three{
     background-color: rgb(221, 221, 137);
